@@ -63,7 +63,7 @@ if __name__ == '__main__':
         version='0.0.1',
         author='Bendik Samseth',
         description='Dummy project.',
-        ext_modules=[CMakeExtension("mypackage")],
+        ext_modules=[CMakeExtension("_mypackage")],
         cmdclass=dict(build_ext=CMakeBuild),
         zip_safe=False,
     )

@@ -11,7 +11,7 @@ int bar(int a, int b) {
 namespace py = pybind11;
 
 
-PYBIND11_MODULE(mypackage, m) {
+PYBIND11_MODULE(_mypackage, m) {
     auto subA = m.def_submodule("subA");
     subA.def("foo", &foo);
 

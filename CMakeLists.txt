@@ -14,7 +14,7 @@ add_custom_target( git_update
 
 # Compile Python bindings.
 add_subdirectory(pybind11)
-pybind11_add_module(mypackage pymain.cpp)
+pybind11_add_module(_mypackage pymain.cpp)
 
-add_dependencies(mypackage git_update)
+add_dependencies(_mypackage git_update)
 

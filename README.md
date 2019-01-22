@@ -2,6 +2,9 @@
 This is a [minimal, complete and verifiable example](https://stackoverflow.com/help/mcve) to go along with [this stackoverflow question](https://stackoverflow.com/q/54317280/3377926).
 
 ```
+> # Fetch Pybind11
+> git submodule init
+> git submodule update
 > # Optionally setup a virtualenv, for instance with pipenv
 > pipenv install
 > pipenv shell

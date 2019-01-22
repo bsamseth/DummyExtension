@@ -1,4 +1,5 @@
 # Dummy Extension
+This is a [minimal, complete and verifiable example](https://stackoverflow.com/help/mcve) to go along with [this stackoverflow question](https://stackoverflow.com/q/54317280/3377926).
 
 ```
 > # Optionally setup a virtualenv, for instance with pipenv
